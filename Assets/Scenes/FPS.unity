@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 122862334}
   - component: {fileID: 122862333}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CurrentAmmo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 821294860}
   - component: {fileID: 821294859}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: CartrigeCapacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1705,7 +1705,7 @@ GameObject:
   - component: {fileID: 2146745659}
   - component: {fileID: 2146745658}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: AmmoCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
