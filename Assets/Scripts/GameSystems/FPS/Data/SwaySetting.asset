@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 43efd8c143ff4cd8a79b00d6acf68c31, type: 3}
   m_Name: SwaySetting
-  m_EditorClassIdentifier: Assembly-CSharp::WeaponSwaySettingData
-  swayAmount: 0.4
-  maxSwayAmount: 0.6
-  swaySmoothValue: 8
+  m_EditorClassIdentifier: 
+  swayAmount: 0.02
+  maxSwayAmount: 0.06
+  swaySmoothValue: 4

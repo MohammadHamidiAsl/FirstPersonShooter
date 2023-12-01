@@ -3,6 +3,7 @@ using System.Threading;
 using GameSystem.Core;
 using GameSystem.Core.ServiceLocator;
 using GameSystems.AssetLoader;
+using GameSystems.FPS;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -11,9 +12,7 @@ namespace GameSystems.GameManager
 {
     public class GameManager : MonoBehaviour
     {
-        /// <summary>
-        /// I will Replace Most of this with an Observer Pattern But time was short So i did not 
-        /// </summary>
+       
         
         
         [SerializeField] private Transform playerSpawnPoint;
@@ -24,7 +23,7 @@ namespace GameSystems.GameManager
 
         private void Start()
         {
-            HideCrosshair();
+            
             
             Initialization();
         }
@@ -32,7 +31,6 @@ namespace GameSystems.GameManager
         void Initialization()
         {
             addressableManager = new AssetLoaderService();
-            // Instantiate the AudioManager prefab
             addressableManager.InstantiateAddressablePrefab("audiomanager", OnAudioManagerInstantiated);
         }
 
@@ -66,9 +64,10 @@ namespace GameSystems.GameManager
                 player = playerObject.GetComponent<FPSController>();
 
 
-                player.Initialize();
-                DisableDefaultCamera();
-                ShowCrosshair();
+                 player.Initialize();
+                 DisableDefaultCamera();
+                 ShowCrosshair();
+                
             }
             else
             {

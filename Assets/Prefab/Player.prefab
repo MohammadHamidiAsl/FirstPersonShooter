@@ -4937,9 +4937,9 @@ MonoBehaviour:
   playerSettingData: {fileID: 11400000, guid: e6257bd06dc7b445285d291c91e96b3e, type: 2}
   weaponManager: {fileID: 7281808552365208264}
   weapon: {fileID: 227335830845496522}
-  weaponSwaySettingData: {fileID: 11400000, guid: 0d22221f8bab14bbabc2620ca2d47a2f, type: 2}
+  swaySetting: {fileID: 11400000, guid: 0d22221f8bab14bbabc2620ca2d47a2f, type: 2}
   characterAnimation: {fileID: 1906963804753872900}
-  characterController: {fileID: 0}
+  characterController: {fileID: 3287268811892994275}
   isInitialized: 0
 --- !u!143 &3287268811892994275
 CharacterController:

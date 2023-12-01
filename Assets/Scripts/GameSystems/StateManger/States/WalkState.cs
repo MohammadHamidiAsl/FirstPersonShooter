@@ -54,7 +54,7 @@ namespace GameSystem.StateManger
 
         public override void Reset()
         {
-            ManagerService.FactoryService.ReleaseState(this);
+            
         }
     }
 }

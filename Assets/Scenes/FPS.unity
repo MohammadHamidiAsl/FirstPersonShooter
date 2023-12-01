@@ -662,6 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpawnPoint: {fileID: 1584658767}
   DefaultCamera: {fileID: 85185790}
+  courser: {fileID: 1004630496}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1004630497
 RectTransform:
   m_ObjectHideFlags: 0

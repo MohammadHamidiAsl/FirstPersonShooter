@@ -27,6 +27,31 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d22221f8bab14bbabc2620ca2d47a2f
+    m_Address: SwaySetting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6257bd06dc7b445285d291c91e96b3e
+    m_Address: PlayerSetting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a0fa3ebe2feb4bdeb3519892fcca3b8
+    m_Address: Ak47
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 019dd5d232ded40428391e2451abed10
+    m_Address: Ammo Model
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0db56d8360c8a4af3b2a0767711e71ec
+    m_Address: Ammo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7db64b488d9a442658b139d44bed9afb, type: 2}
   m_SchemaSet:
